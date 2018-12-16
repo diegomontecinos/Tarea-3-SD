@@ -1,6 +1,8 @@
 package com.company;
 
 //imports
+import sun.font.TrueTypeFont;
+
 import java.util.ArrayList;
 
 
@@ -35,11 +37,40 @@ public class Main {
         return id;
     }
 
+    public  int establecler_comunicacion(){
+    return 0;
+    }
+
+
+
+
+
     public static void main(String[] args) {
 
-        ArrayList<Medico> lista_medicos = new ArrayList<Medico>();//creamos el objeto lista
-        ArrayList<Enfermero> lista_enfermeros = new ArrayList<Enfermero>();//creamos el objeto lista
-        ArrayList<Paramedico> lista_paramedicos = new ArrayList<Paramedico>();//creamos el objeto lista
+        boolean programa = true;
+
+        ArrayList<Medico> lista_medicos = new ArrayList<Medico>();
+        ArrayList<Enfermero> lista_enfermeros = new ArrayList<Enfermero>();
+        ArrayList<Paramedico> lista_paramedicos = new ArrayList<Paramedico>();
+
+        //leer archivo Json
+
+        while (programa){
+
+            boolean comunicacion = false;
+
+            //establecer comunicacion
+
+
+
+            while (comunicacion){
+
+                //hacer lo demas
+
+            }
+        }
+
+
 
 
 
