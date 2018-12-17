@@ -3,6 +3,8 @@ package com.company;
 //imports
 import sun.font.TrueTypeFont;
 
+
+import java.io.IOException;
 import java.util.ArrayList;
 
 
@@ -53,6 +55,13 @@ public class Main {
         ArrayList<Enfermero> lista_enfermeros = new ArrayList<Enfermero>();
         ArrayList<Paramedico> lista_paramedicos = new ArrayList<Paramedico>();
 
+        try {
+            LeerJson leerJson = new LeerJson();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        /*
         //leer archivo Json
 
         while (programa){
@@ -68,18 +77,9 @@ public class Main {
                 //hacer lo demas
 
             }
+            */
+
         }
 
-
-
-
-
-
-
-
-
-
-
-
     }
-}
+
